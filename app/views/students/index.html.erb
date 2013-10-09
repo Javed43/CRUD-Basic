@@ -3,8 +3,15 @@
 	<title> </title>
 </head>
 <body>
+<h1>I've added the codeship!</h1>
+<p>I just deployed my ruby on Rails App on Codeship</p>
+Deployed using <a href = "https://www.codeship.io">Codeship.io</a>
 
-	<p> <%= link_to("Create New Entry" , :controller => 'students' , :action => 'new') %> <br/> </p>
+
+
+
+
+<p> <%= link_to("Create New Entry" , :controller => 'students' , :action => 'new') %> <br/> </p>
 
 <%= @students.each do |s| %>
 <p> Title : <%= s.title %> <br/> </p>
